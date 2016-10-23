@@ -1,0 +1,28 @@
+## Interface: 70000
+## X-Curse-Packaged-Version: 1.0.2
+## X-Curse-Project-Name: Cascade
+## X-Curse-Project-ID: cascade
+## X-Curse-Repository-ID: wow/cascade/mainline
+
+## Title: Cascade
+## Notes: Compact Combat Log Addon
+## Author: Turkleton
+## Version: 1.0.2
+## X-Category: Combat
+## X-Credits: Grayhoof, Mikord
+## SavedVariables: CascadeDB
+## SavedVariablesPerCharacter: CascadeDBPC
+
+## LoadOnDemand: 1
+## LoadWith: Blizzard_CombatLog
+## OptionalDeps: Ace3, LibSharedMedia-3.0
+
+embeds.xml
+locales.xml
+
+CascadeCore.lua
+CascadeFrame.lua
+CascadeFrame_EventFrames.lua
+CascadeHistory.lua
+CascadeHistoryFrame.lua
+CascadeOptions.lua
